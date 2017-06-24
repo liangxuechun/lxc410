@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Us</title>
+<style type="text/css">			
+		td {		  
+		  text-align:center;		  
+		}		
+		p{
+	color:#000000;
+	font-size:12pt;
+	text-align:center;
+	font-family:'Times New Roman', arial, 'sans serif';
+	line-height: 28px;		  
+		}		
+		a:link, a:visited, a:active {
+		  color:#FFFFFF;
+		  text-decoration:none;	
+		}
+		a:hover {
+		  text-decoration:underline;
+		  color:#000000;
+		}
+.STYLE1 {color: #FFFFFF}
+body {
+	background-repeat:round;
+	background-image: url(iamges/bg1.jpg);
+}
+
+</style>
+ <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBzE9xAESye6Kde-3hT-6B90nfwUkcS8Yw&sensor=false"></script>
+</head>
+<body >
+<table width="100%">
+<tr>
+<td width="130px"><img src="iamges/head.png" width="130px" height="80px"></td>
+<td  text-align="center" width="88%" height="80px" border="1" cellpadding="0" cellspacing="0">
+<h1><b><span class="STYLE6"><big><big><span class="STYLE4 STYLE1"><em>Durham House of Pets</em></span></span><span class="STYLE4"><big><big></span></b></h1></td>
+<td width="130px"><img src="iamges/head.png" width="130px" height="80px"></td>
+</tr>
+</table>	
+<table width="100%" height="45">
+<tr background="iamges/bg.png">
+	<td width="100px" height="40" ><a href="index.html"><b>About Us</b></a></td>
+	<td width="100px" ><a href="our team.html"><b>Our Team</b></a></td>
+	<td width="100px" ><a href="products.html"><b>Products</b></a></td>
+	<td width="100px" ><a href="policies.html"><b>Policies</b></a></td>
+	<td width="100px" ><a href="contact us.html"><b>Contact Us</b></a></td>
+</tr>
+</table>
+<table width="100%" height="447"  align="right"> 
+<tr><td width="57%" height="100px" align="center" valign="middle"><div id="googleMap" style="width:600px;height:440px;"></div></td>
+<td  width="43%" align="center">
+<br>
+  <h3><strong>Corporate Office</strong></h3>
+<p align="center">
+Postal Address: 271 Mast Road, Durham NH 03824<br>
+Phone: (603)-757-8172<br>
+Fax: (010) - 413-5426<br>
+E-Mail:<a href="mailto:liangxuechuntutu@gmail.com?subject=Corporate Office">liangxuechuntutu@gmail.com
+</a></P>
+  <h3><strong>Regional Offices 1</strong></h3>
+<p align="center">
+Postal Address: 149 Portland Avenue, Dover, NH&nbsp;<span t="7" onclick="return false;" data="03820"> </span>03820<br>
+Phone: (603)-858-2846<br>
+Fax: (028)-381-7293<br>
+E-Mail:<a href="mailto:dqi18ejd@gmail.com?subject=Regional Offices">dqi18ejd@gmail.com
+</a></P>
+<h3><strong>Regional Offices 2</strong></h3>
+<p>
+Postal Address: 78 Rollins Road, Rollinsford, NH<br>
+Phone: (603)-119-2282<br>
+Fax: (118)-282-4848<br>
+E-Mail:<a href="mailto:xcl0117@gmail.com?subject=Regional Offices">xcl0117@gmail.com</a></p>
+  <h3 align="center"><a href="https://www.facebook.com/ZooCreatures/?fref=ts "><strong>Find us on Facebook</strong></a></h3></td>
+</tr>
+<td colspan="2">
+Copyright&copy;2007 Durham House of Pets</td>
+</table>
+</body>
+<script type='text/javascript'>
+function initialize() 
+{ 
+
+var mapProp = { center:new google.maps.LatLng(43.142442,-70.949171), 
+  zoom:15, mapTypeId:google.maps.MapTypeId.ROADMAP }; 
+
+var map=new google.maps.Map(document.getElementById("googleMap"), mapProp); 
+var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(43.142442,-70.949171), 
+                map: map,
+                
+            });
+			} 
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+</script>
+</html>
